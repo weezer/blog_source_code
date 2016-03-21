@@ -19,18 +19,22 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/weezersu'),
+          ('github', 'https://github.com/weezer'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = "output/theme/pelican-bootstrap3"
+THEME = "theme/pelican-bootstrap3"
+FAVICON = 'images/favicon.ico'
+DISPLAY_CATEGORIES_ON_MENU = False
+SHOW_ARTICLE_CATEGORY = True
+DISPLAY_CATEGORY_IN_BREADCRUMBS = True
+BOOTSTRAP_NAVBAR_INVERSE = True
+BOOTSTRAP_THEME = "darkly"
+MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight, linenums=True)', 'extra']
+
+# tell pelican where your custom.css file is in your content folder
+STATIC_PATHS = ['images']
