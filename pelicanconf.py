@@ -27,7 +27,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = "theme/pelican-bootstrap3"
+THEME = "themes/pelican-bootstrap3"
 FAVICON = 'images/favicon.ico'
 DISPLAY_CATEGORIES_ON_MENU = False
 SHOW_ARTICLE_CATEGORY = True
