@@ -2,7 +2,7 @@ Title: 01. Two Sum
 Date: 2016-09-06 11:36
 Category: leetcode
 Tags: code, python, leetcode
-Slug: leetcode
+Slug: leetcode-01-Two_Sum
 Authors: Weezer Su
 Summary: First Question on leetcode
 
