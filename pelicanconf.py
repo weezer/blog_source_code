@@ -37,4 +37,8 @@ BOOTSTRAP_THEME = "darkly"
 MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight, linenums=True)', 'extra']
 
 # tell pelican where your custom.css file is in your content folder
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images',
+		'images/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'images/favicon.ico': {'path': 'favicon.ico'}
+}
