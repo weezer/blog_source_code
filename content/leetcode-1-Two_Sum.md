@@ -4,7 +4,7 @@ Category: leetcode
 Tags: code, python, leetcode
 Slug: leetcode-01-Two_Sum
 Authors: Weezer Su
-Summary: First Question on leetcode
+Summary: First question on leetcode
 
 starting working on leetcode now.
 
