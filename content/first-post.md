@@ -1,6 +1,6 @@
 Title: Weezer's first post
 Date: 2016-03-15 17:30
-Tags: first, misc
+Tags: misc
 Slug: My-first-post
 Authors: Weezer Su
 
