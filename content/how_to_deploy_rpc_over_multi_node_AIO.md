@@ -25,3 +25,5 @@ DEPLOY_HARDENING=no
 DEPLOY_TEMPEST=yes
 ./scripts/deploy.sh
 ```
+
+check /etc/ansible/roles for roles. this variable been set up at openstack-ansible/scripts/openstack-ansible.rc
