@@ -15,5 +15,5 @@ else
   var=$1  
 fi
 echo $var
-git commit -m "\$var"
+git commit -m "$var"
 git push origin master
