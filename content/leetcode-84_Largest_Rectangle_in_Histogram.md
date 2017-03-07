@@ -6,6 +6,11 @@ Slug:leetcode-84_Largest_Rectangle_in_Histogram
 Authors: Weezer Su
 Summary: Largest Rectangle in Histogram
 
+```python
+3 * True == 3
+
+3 * False == 0
+```
 
 ```python
 class Solution:

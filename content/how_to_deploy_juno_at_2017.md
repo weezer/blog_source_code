@@ -6,6 +6,12 @@ Slug: how_to_deploy_juno_at_2017
 Authors: Weezer Su
 Summary: Deploy openstack-ansible Juno with AIO-multinode.
 
+ETH12 doesn't exist on VMs, bring it up manually or make a #TODO to change the code in the future
+
+add eth12 and problem resolved.
+[code](https://github.com/os-cloud/leapfrog-juno-config/blob/master/user_variables.yml#L88 )
+[ticket](https://bugs.launchpad.net/openstack-ansible/+bug/1462570)
+
 ```
 git clone https://github.com/rcbops-qe/openstack-ansible-ops
 cd multi-node-aio
@@ -13,7 +19,7 @@ cd multi-node-aio
 RUN_OSA=false PARTITION_HOST=true OSA_BRANCH=stable/mitaka ./build.sh
 #downgrade the kernel of each VMs
 cd tools/
-KERNEL_VERSION=3.13.0-98 ./downgrade-all-VMs.sh
+KERNEL_VERSION=3.13.0-79 ./downgrade-all-VMs.sh
 #get the juno code
 git clone https://github.com/os-cloud/leapfrog-juno-playbooks.git /opt
 mkdir /etc/rpc_deploy
@@ -26,6 +32,7 @@ echo "lxc_container_backing_store: dir" >> /etc/rpc_deploy/user_variables.yml
 ehco "tempest_public_subnet_cidr: 172.29.248.0/22"  >> /etc/rpc_deploy/user_variables.yml
 echo "neutron_l2_population: True" >> /etc/rpc_deploy/user_variables.yml
 echo "glance_default_store: swift >> /etc/rpc_deploy/user_variables.yml"
-ansible-playbook playbooks/infrastructure/haproxy-install.yml playbooks/setup-everything.yml
+#Cange the container_create playbook, bdev to dir delete those lvm related parameters.
+ansible-playbook -e @/etc/rpc_deploy/user_variables.yml playbooks/infrastructure/haproxy-install.yml playbooks/setup-everything.yml
 #GOOD LUCK
 ```
