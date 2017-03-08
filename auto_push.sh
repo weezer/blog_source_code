@@ -1,8 +1,9 @@
 #!/bin/bash
 
 activate () {
-  . bin/activate
+  source bin/activate
 }
+
 activate
 
 pelican content
@@ -10,7 +11,7 @@ cd output
 git add .
 if [ -z "$1" ]
 then
-  var=`git ls-files --others --exclude-standard | grep -v "tag"`
+  var=`git status --porcelain | grep "^A" | cut -c 4-`
 else
   var=$1  
 fi
