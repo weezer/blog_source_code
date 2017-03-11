@@ -15,3 +15,4 @@ sed -i '' "/^Summary:/ s/$/ $input/" content/"$file_name"".md"
 cat ../PycharmProjects/very_old_scripts/testPydev/"$input".py
 echo
 sed -i '' "/python$/r "../PycharmProjects/very_old_scripts/testPydev/"$input".py"" content/"$file_name"".md"
+echo "\`\`\`" >> content/"$file_name"".md"

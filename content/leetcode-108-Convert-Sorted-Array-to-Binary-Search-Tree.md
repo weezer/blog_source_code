@@ -1,5 +1,5 @@
 Title: 108. Convert Sorted Array to Binary Search Tree
-Date: 2017-03-11 01:41:51
+Date: 2017-03-11 01:45:47
 Category: leetcode
 Tags: code, python, leetcode
 Slug: leetcode-108-Convert-Sorted-Array-to-Binary-Search-Tree
@@ -42,3 +42,4 @@ if __name__ == "__main__":
     head = s.sortedArrayToBST([1,2,3,4,5,6,7,8])
     s.inorder(head)```
 
+```
