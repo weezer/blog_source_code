@@ -17,7 +17,7 @@ PLUGINS = ["tag_cloud"]
 
 #tag-cloud setting
 TAG_CLOUD_STEPS = 2
-TAG_CLOUD_MAX_ITEMS = 5
+TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_SORTING = 'alphabetically'
 TAG_CLOUD_BADGE = False
 
