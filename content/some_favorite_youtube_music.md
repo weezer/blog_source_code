@@ -11,3 +11,6 @@ Summary: Save some music links at here
 
 #Berserk - Force
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n55QVlBoDxI" frameborder="0" allowfullscreen></iframe>
+
+#我的未来不是梦
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1kCz2a_s5Y" frameborder="0" allowfullscreen></iframe>
