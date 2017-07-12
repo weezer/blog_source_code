@@ -7,4 +7,5 @@ Authors: Weezer Su
 Summary: Some computer science and devops books
 
 [Linux Network](/pdfs/linuxnet.pdf)
+[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
