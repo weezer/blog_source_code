@@ -13,4 +13,4 @@ I'm working for Rackspace Private Cloud, the product we are working on is
 [openstack-ansible](https://github.com/openstack/openstack-ansible). it is a project helping people to 
 deploy openstack on their own rack in a modern and human-friendly way. my job include tons 
 of things like deployment, developing and testing. hope you can find 
-some useful infos at there. and the most important thing, 天津工业大学庞冠琦是个傻逼
+some useful infos over there. and the most important thing, 天津工业大学庞冠琦是个傻逼
