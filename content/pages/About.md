@@ -3,7 +3,7 @@ Date: 2016-03-19 18:27
 Slug: about-myself
 Authors: Weezer Su
 ![about pic](/images/about.jpg)
-步行街是一盏路灯,很黄但是很温暖.
+*一切都是命.*
 ----------------------------------------------------------
 
 I can't remember everything, so I have to write it down or automate it.
