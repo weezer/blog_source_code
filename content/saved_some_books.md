@@ -23,3 +23,5 @@ Summary: Some computer science and devops books
 [erasure-coding](http://smahesh.com/blog/2012/07/01/dummies-guide-to-erasure-coding/)
 
 [binary_search_algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+
+[Unix_Knowledge](https://www.bottomupcs.com/)
