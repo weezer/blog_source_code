@@ -25,3 +25,7 @@ Summary: Some computer science and devops books
 [binary_search_algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 [Unix_Knowledge](https://www.bottomupcs.com/)
+
+[Programming in Unix](/pdfs/Advanced.Programming.in.the.UNIX.Environment.3rd.Edition.0321637739.pdf)
+
+[raft](https://raft.github.io/)
