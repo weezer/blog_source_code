@@ -13,7 +13,7 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["tag_cloud"]
+PLUGINS = ["tag_cloud", "render_math"]
 
 #tag-cloud setting
 TAG_CLOUD_STEPS = 2
