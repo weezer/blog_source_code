@@ -20,7 +20,11 @@ with those questions you dont know the size, the reservoir sampling algorithm is
 
 assume you have an input dataset size of  **n**, and the sampling size of  **k**, first you build up a list can store **k** elements, put the first k element from the input to the list, from the **k + 1** element, 
 
-$k+1 \ k$ 
+$k+1 \div k$ 
+
+$\displaystyle\frac{b}{c+d}$
+
+$\frac{b}{c+d}$
 
 ```python
 import random

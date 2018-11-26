@@ -8,3 +8,7 @@ Summary: some useful links
 
 https://transfer.sh/
 
+http://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf
+
+http://cenalulu.github.io/linux/numa/
+
