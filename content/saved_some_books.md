@@ -1,5 +1,5 @@
 Title:Some Computer Science and devops books 
-Date: 2018-02-01 11:22
+Date: 2018-12-13 11:22
 Category: Tech
 Tags: tech
 Slug:saved_some_books 
@@ -29,3 +29,7 @@ Summary: Some computer science and devops books
 [Programming in Unix](/pdfs/Advanced.Programming.in.the.UNIX.Environment.3rd.Edition.0321637739.pdf)
 
 [raft](https://raft.github.io/)
+
+[nginx](https://www.nginx.com/resources/library)
+
+[system-design](/pdfs/OReilly.Designing.Data-Intensive.Applications.2017.3.epub)
