@@ -33,3 +33,8 @@ Summary: Some computer science and devops books
 [nginx](https://www.nginx.com/resources/library)
 
 [system-design](/pdfs/OReilly.Designing.Data-Intensive.Applications.2017.3.epub)
+
+[kafka1](/pdfs/Kafka_The_Definitive_Guid.pdf)
+
+[kafka2](/pdfs/Kafka_Streams_in_Action.pdf)
+
